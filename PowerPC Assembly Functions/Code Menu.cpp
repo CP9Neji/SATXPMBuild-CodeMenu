@@ -276,9 +276,9 @@ void CodeMenu()
 	//main page
 	vector<Line*> MainLines;
 #if DOLPHIN_BUILD
-	MainLines.push_back(new Comment("Warp Zone Netplay Code Menu", &MENU_TITLE_CHECK_LOCATION));
+	MainLines.push_back(new Comment("SATXPM Netplay Code Menu", &MENU_TITLE_CHECK_LOCATION));
 #else
-	MainLines.push_back(new Comment("Warp Zone Code Menu", &MENU_TITLE_CHECK_LOCATION));
+	MainLines.push_back(new Comment("SATXPM Code Menu", &MENU_TITLE_CHECK_LOCATION));
 #endif
 
 	MainLines.push_back(new Comment("X = Reset Selection | Y = Reset Page"));
